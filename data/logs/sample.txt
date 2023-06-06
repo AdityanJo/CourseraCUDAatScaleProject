@@ -1,0 +1,131 @@
+root@2d18d507f510:/learning/CourseraCUDAatScaleProject/src/imageBlendingNPP# ./imageBlendingNPP
+ -input1=../../data/samples/1.1.01.tiff  -input2=../../data/samples/1.5.05.tiff -output=output_
+a1_50_a2_250.pgm -alpha1=50 -alpha2=250
+./imageBlendingNPP Starting...
+
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.6.3
+  CUDA Driver  Version: 12.0
+  CUDA Runtime Version: 11.6
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imageBlendNPP opened: <../../data/samples/1.1.01.tiff> successfully!
+imageBlendNPP opened: <../../data/samples/1.5.05.tiff> successfully!
+TIFFFieldWithTag: Internal error, unknown tag 0x829a.
+TIFFFieldWithTag: Internal error, unknown tag 0x829d.
+TIFFFieldWithTag: Internal error, unknown tag 0x8822.
+TIFFFieldWithTag: Internal error, unknown tag 0x8824.
+TIFFFieldWithTag: Internal error, unknown tag 0x8827.
+TIFFFieldWithTag: Internal error, unknown tag 0x8828.
+TIFFFieldWithTag: Internal error, unknown tag 0x9000.
+TIFFFieldWithTag: Internal error, unknown tag 0x9003.
+TIFFFieldWithTag: Internal error, unknown tag 0x9004.
+TIFFFieldWithTag: Internal error, unknown tag 0x9101.
+TIFFFieldWithTag: Internal error, unknown tag 0x9102.
+TIFFFieldWithTag: Internal error, unknown tag 0x9201.
+TIFFFieldWithTag: Internal error, unknown tag 0x9202.
+TIFFFieldWithTag: Internal error, unknown tag 0x9203.
+TIFFFieldWithTag: Internal error, unknown tag 0x9204.
+TIFFFieldWithTag: Internal error, unknown tag 0x9205.
+TIFFFieldWithTag: Internal error, unknown tag 0x9206.
+TIFFFieldWithTag: Internal error, unknown tag 0x9207.
+TIFFFieldWithTag: Internal error, unknown tag 0x9208.
+TIFFFieldWithTag: Internal error, unknown tag 0x9209.
+TIFFFieldWithTag: Internal error, unknown tag 0x920a.
+TIFFFieldWithTag: Internal error, unknown tag 0x9214.
+TIFFFieldWithTag: Internal error, unknown tag 0x927c.
+TIFFFieldWithTag: Internal error, unknown tag 0x9286.
+TIFFFieldWithTag: Internal error, unknown tag 0x9290.
+TIFFFieldWithTag: Internal error, unknown tag 0x9291.
+TIFFFieldWithTag: Internal error, unknown tag 0x9292.
+TIFFFieldWithTag: Internal error, unknown tag 0xa000.
+TIFFFieldWithTag: Internal error, unknown tag 0xa001.
+TIFFFieldWithTag: Internal error, unknown tag 0xa002.
+TIFFFieldWithTag: Internal error, unknown tag 0xa003.
+TIFFFieldWithTag: Internal error, unknown tag 0xa004.
+TIFFFieldWithTag: Internal error, unknown tag 0xa20b.
+TIFFFieldWithTag: Internal error, unknown tag 0xa20c.
+TIFFFieldWithTag: Internal error, unknown tag 0xa20e.
+TIFFFieldWithTag: Internal error, unknown tag 0xa20f.
+TIFFFieldWithTag: Internal error, unknown tag 0xa210.
+TIFFFieldWithTag: Internal error, unknown tag 0xa214.
+TIFFFieldWithTag: Internal error, unknown tag 0xa215.
+TIFFFieldWithTag: Internal error, unknown tag 0xa217.
+TIFFFieldWithTag: Internal error, unknown tag 0xa300.
+TIFFFieldWithTag: Internal error, unknown tag 0xa301.
+TIFFFieldWithTag: Internal error, unknown tag 0xa302.
+TIFFFieldWithTag: Internal error, unknown tag 0xa401.
+TIFFFieldWithTag: Internal error, unknown tag 0xa402.
+TIFFFieldWithTag: Internal error, unknown tag 0xa403.
+TIFFFieldWithTag: Internal error, unknown tag 0xa404.
+TIFFFieldWithTag: Internal error, unknown tag 0xa405.
+TIFFFieldWithTag: Internal error, unknown tag 0xa406.
+TIFFFieldWithTag: Internal error, unknown tag 0xa407.
+TIFFFieldWithTag: Internal error, unknown tag 0xa408.
+TIFFFieldWithTag: Internal error, unknown tag 0xa409.
+TIFFFieldWithTag: Internal error, unknown tag 0xa40a.
+TIFFFieldWithTag: Internal error, unknown tag 0xa40b.
+TIFFFieldWithTag: Internal error, unknown tag 0xa40c.
+TIFFFieldWithTag: Internal error, unknown tag 0xa407.
+TIFFFieldWithTag: Internal error, unknown tag 0xa407.
+TIFFFieldWithTag: Internal error, unknown tag 0xa420.
+TIFFFieldWithTag: Internal error, unknown tag 0x829a.
+TIFFFieldWithTag: Internal error, unknown tag 0x829d.
+TIFFFieldWithTag: Internal error, unknown tag 0x8822.
+TIFFFieldWithTag: Internal error, unknown tag 0x8824.
+TIFFFieldWithTag: Internal error, unknown tag 0x8827.
+TIFFFieldWithTag: Internal error, unknown tag 0x8828.
+TIFFFieldWithTag: Internal error, unknown tag 0x9000.
+TIFFFieldWithTag: Internal error, unknown tag 0x9003.
+TIFFFieldWithTag: Internal error, unknown tag 0x9004.
+TIFFFieldWithTag: Internal error, unknown tag 0x9101.
+TIFFFieldWithTag: Internal error, unknown tag 0x9102.
+TIFFFieldWithTag: Internal error, unknown tag 0x9201.
+TIFFFieldWithTag: Internal error, unknown tag 0x9202.
+TIFFFieldWithTag: Internal error, unknown tag 0x9203.
+TIFFFieldWithTag: Internal error, unknown tag 0x9204.
+TIFFFieldWithTag: Internal error, unknown tag 0x9205.
+TIFFFieldWithTag: Internal error, unknown tag 0x9206.
+TIFFFieldWithTag: Internal error, unknown tag 0x9207.
+TIFFFieldWithTag: Internal error, unknown tag 0x9208.
+TIFFFieldWithTag: Internal error, unknown tag 0x9209.
+TIFFFieldWithTag: Internal error, unknown tag 0x920a.
+TIFFFieldWithTag: Internal error, unknown tag 0x9214.
+TIFFFieldWithTag: Internal error, unknown tag 0x927c.
+TIFFFieldWithTag: Internal error, unknown tag 0x9286.
+TIFFFieldWithTag: Internal error, unknown tag 0x9290.
+TIFFFieldWithTag: Internal error, unknown tag 0x9291.
+TIFFFieldWithTag: Internal error, unknown tag 0x9292.
+TIFFFieldWithTag: Internal error, unknown tag 0xa000.
+TIFFFieldWithTag: Internal error, unknown tag 0xa001.
+TIFFFieldWithTag: Internal error, unknown tag 0xa002.
+TIFFFieldWithTag: Internal error, unknown tag 0xa003.
+TIFFFieldWithTag: Internal error, unknown tag 0xa004.
+TIFFFieldWithTag: Internal error, unknown tag 0xa20b.
+TIFFFieldWithTag: Internal error, unknown tag 0xa20c.
+TIFFFieldWithTag: Internal error, unknown tag 0xa20e.
+TIFFFieldWithTag: Internal error, unknown tag 0xa20f.
+TIFFFieldWithTag: Internal error, unknown tag 0xa210.
+TIFFFieldWithTag: Internal error, unknown tag 0xa214.
+TIFFFieldWithTag: Internal error, unknown tag 0xa215.
+TIFFFieldWithTag: Internal error, unknown tag 0xa217.
+TIFFFieldWithTag: Internal error, unknown tag 0xa300.
+TIFFFieldWithTag: Internal error, unknown tag 0xa301.
+TIFFFieldWithTag: Internal error, unknown tag 0xa302.
+TIFFFieldWithTag: Internal error, unknown tag 0xa401.
+TIFFFieldWithTag: Internal error, unknown tag 0xa402.
+TIFFFieldWithTag: Internal error, unknown tag 0xa403.
+TIFFFieldWithTag: Internal error, unknown tag 0xa404.
+TIFFFieldWithTag: Internal error, unknown tag 0xa405.
+TIFFFieldWithTag: Internal error, unknown tag 0xa406.
+TIFFFieldWithTag: Internal error, unknown tag 0xa407.
+TIFFFieldWithTag: Internal error, unknown tag 0xa408.
+TIFFFieldWithTag: Internal error, unknown tag 0xa409.
+TIFFFieldWithTag: Internal error, unknown tag 0xa40a.
+TIFFFieldWithTag: Internal error, unknown tag 0xa40b.
+TIFFFieldWithTag: Internal error, unknown tag 0xa40c.
+TIFFFieldWithTag: Internal error, unknown tag 0xa407.
+TIFFFieldWithTag: Internal error, unknown tag 0xa407.
+TIFFFieldWithTag: Internal error, unknown tag 0xa420.
+Saved image: output_a1_50_a2_250.pgm
+root@2d18d507f510:/learning/CourseraCUDAatScaleProject/src/imageBlendingNPP# 
